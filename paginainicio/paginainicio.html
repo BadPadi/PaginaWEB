@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Wyndu WEB Alex</title>
+    <link rel="shortcut icon" href="../fotos/cms.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="../paginainicio/estilos.css  ">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500&display=swap" rel="stylesheet">    
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script>
+    $(document).ready(function(){
+      $("article").hide()
+      $("#menuantivirus").click(function(){
+        $("article").hide()
+        $("#antivirus").show();
+      });
+      $("#menuofimatica").click(function(){
+        $("article").hide()
+        $("#ofimatica").show();
+      });
+      $("#menurecuperacion").click(function(){
+        $("article").hide()
+        $("#recuperacion").show();
+      });
+      $("#menuportable").click(function(){
+        $("article").hide()
+        $("#portable").show();
+      });
+      $("#menuhola").click(function(){
+        $("article").hide()
+        $("#hola").show();
+      });
+    });
+  </script>
+
+</head>
+
+<body>
+    <header>
+      <section class="nav_fixed">
+        <div class="wrapper">
+          <div class="logo">
+        
+              <a href="https://www.youtube.com/watch?v=PwWHL3RyQgk"><img class="logo_nav" src="../img/GitHub-Mark-Light-64px.png" alt="logonav"></a>
+          </div>
+         <nav class="nav_uno">
+          <a href="#inicio">Inicio</a>    
+          <a href="#acerca_de">Acerca de</a>  
+          <a href="#paises">Información</a>      
+          <a href="#Clientes">Clientes</a>      
+          <a href="#contacto">Contacto</a>      
+         </nav>
+        </div>
+      </section>
+        <section id="inicio" class="textos-header destino">
+            <h1>Aprende a descargar los mejores programas</h1>
+            <h1>con WyNDU </h1>
+        </section>
+        <div class="wave" style="height: 150px; overflow: hidden;"><svg viewBox="0 0 500 150" preserveAspectRatio="none"
+          style="height: 100%; width: 100%;">
+          <path d="M0.00,49.98 C150.00,150.00 349.20,-50.00 500.00,49.98 L500.00,150.00 L0.00,150.00 Z"
+              style="stroke: none; fill: rgb(255,255,255,255);"></path>
+      </svg></div>
+    </header>
+
+  <main>
+
+    <div id="acerca_de" class="acerca_de">
+      <h2 class="sobre_nosotros">Sobre nosotros</h2> 
+      <div class ="contenedor">        
+        <img class="foto_hombre" src="../img/hombre.png" alt="hombre">       
+        <p class="parrafo">Somos una página principiante en esto del mundo de la informatica pero con muchas ganas de aprender.
+          Aquí encontraras todo todo tipo de tutoriales para poder descargar programas de alta calidad en todo tipo de ámbitos.
+        </p>
+        
+        
+      </div>
+    </div>
+
+    
+    <div id="paises" class="destino">    
+      <nav class="nav_dos">
+        <ul>
+          <li id="menuantivirus"><a>Antivirus</a></li>
+          <li id="menuofimatica"><a>Ofimatica</a></li>
+          <li id="menurecuperacion"><a>R.Datos</a></li>
+          <li id="menuportable"><a>Soft.Portable</a></li>
+          <!--<li id="menuhola"><a>+ Info</a></li>-->
+        </ul>
+      </nav>
+      <article id="antivirus">
+      <iframe src="../pages/antivirus.html"></iframe>
+      </article>
+      <article id="ofimatica">
+        <iframe src="../pages/ofimatica.html"></iframe>
+      </article>
+      <article id="recuperacion">
+        <iframe src="../pages/recuperacion.html"></iframe>
+      </article>  
+      <article id="portable">
+        <iframe src="../pages/portable.html"></iframe>
+      </article>  
+     <!-- <article id="hola">
+        <iframe src="pages/hola.html"></iframe>
+      </article> --> 
+    </div>
+ 
+    
+  
+    <section id="Clientes" class="clientes_contenedor destino" style="
+    background-image: linear-gradient(to top, #e65b5b 0%, #e2e7e4 100%);">
+      <h2 class="titulo1">Qué dicen nuestros clientes</h2>
+      <div class="cards">
+         <div class="card">
+             <img src="../img/rubio.jpg" alt="">
+              <div class="contenido-texto-card">
+                  <h4>Álvaro López</h4>
+                  <p>Gracias a esta página se más de informática y a descargar los programas más de moda.</p>
+             </div>
+         </div>
+            <div class="card">
+              <img src="../img/rubia.jpg" alt="">
+              <div class="contenido-texto-card">
+                 <h4>Alba González</h4>
+                 <p>Esta página es increíble , mucha información y muy útil para el día a día ¡Recomendadísima!</p>
+              </div>
+            </div>
+      </div>
+    </section>
+  </main>
+
+
+  <footer>
+   <div id="contacto" class="contenedor-footer destino">
+      <div class="content-foo">
+          <h4>Teléfono</h4>
+          <a>8483942</a>
+      </div>
+      <div class="content-foo">
+          <h4>Email</h4>
+          <a class="content-foo" href="https://www.gmail.com/mail/help/intl/es/about.html?iframe">alexpadi13@gmail.com</a>
+      </div>
+      <div class="content-foo">
+          <h4>Ciudad</h4>
+          <a>Córdoba</a>
+      </div>
+    </div>
+    <h2 class="titulo-final">&copy; Alejandro Padillo | Trabajo Web Final</h2>
+  </footer>
+    
+
+
+</body>
+
+<i class="fab fa-twitter-square"></i>
+<i class="fab fa-facebook-square"></i>
+<i class="fab fa-whatsapp-square"></i>
