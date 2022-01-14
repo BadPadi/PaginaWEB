@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+	<channel>
+		<!--Prólogo-->
+		<title>Anuncios de mi WEB</title>
+		<link>https://github.com/BadPadi/PaginaWEB</link>
+		<description>
+			Aquí anunciaremos las nuevas noticias sobre inforática
+		</description>
+		<category>viajes/ciudades/ocio</category>
+		<copyright>1º ASIR - LMSGI</copyright>
+	
+		<language>es-es</language>
+		<lastBuildDate>Frid, 14 Jan 2021 11:00:00</lastBuildDate>
+		<webMaster>alexpadi13@gmail.com</webMaster>
+		
+		<!-- Noticias del canal -->
+		<item>
+			<title>  Tipos de Antivirus</title>
+			<description>En este artículo encontrará información sobre Antivirus</description>
+			<link>https://badpadi.github.io/PaginaWEB/pages/antivirus.html</link>
+			<author>Alejandro Padillo Parra</author>
+			<category>Antivirus</category>
+            <pubDate>Frid, 14 Jan 2021 11:00:00</pubDate>
+		</item>
+			<item>
+			<title>Tipos de Ofimática</title>
+			<description>En este artículo encontrará información sobre París</description>
+			<link>https://badpadi.github.io/PaginaWEB/pages/ofimatica.html</link>
+			<author>Alejandro Padillo Parra</author>
+			<category>paris</category>
+            <pubDate>Frid, 14 Jan 2021 11:00:00</pubDate>
+		</item>
+        <item>
+			<title>  Tipos de Recuperación de Datos </title>
+			<description>En este artículo encontrará información sobre Antivirus</description>
+			<link>https://badpadi.github.io/PaginaWEB/pages/recuperacion.html</link>
+			<author>Alejandro Padillo Parra</author>
+			<category>R.Datos</category>
+            <pubDate>Frid, 14 Jan 2021 11:00:00</pubDate>
+		</item>
+        <item>
+			<title>  Tipos de Soft. Portable</title>
+			<description>En este artículo encontrará información sobre Antivirus</description>
+			<link>https://badpadi.github.io/PaginaWEB/pages/portable.html</link>
+			<author>Alejandro Padillo Parra</author>
+			<category>Portable</category>
+            <pubDate>Frid, 14 Jan 2021 11:00:00</pubDate>
+		</item>
+	</channel>
+</rss>
