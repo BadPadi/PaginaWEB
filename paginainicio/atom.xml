@@ -1,0 +1,68 @@
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="es" xml:base="https://badpadi.github.io/PaginaWEB/">
+    <id>https://badpadi.github.io/PaginaWEB/</id>
+    <title>Aprende Informática</title>
+    <updated>2022-14-21 11:0:00+01:00</updated>
+    <link rel="alternate" href="https://estherostos.github.io/proyectofhw/atom.xml"/>
+<author>
+    <name>Alejadnro Padillo Parra</name> 
+    <email>alexpadi13@gmail.com</email>
+</author>
+    <category term="Viajes ficticios"/>
+<contributor>
+    <name>otro Autor</name>
+    <email>otro@gmail.com</email>
+    <uri>https://www.linkedin.com/in/otro</uri>
+</contributor>
+
+ <entry>
+    <id>https://badpadi.github.io/PaginaWEB/pages/ofimatica.html</id>
+    <title>Información sobre Ofimática</title>
+    <update>2021-02-12T18:30:00+01:00</update>
+<author>
+    <name>Alejadnro Padillo Parra</name>
+    <email>alexpadi13@gmail.com</email>
+</author>
+    <summary> En este artículo cutre encontraras casi ninguna información sobre Ofimática</summary>
+    <link rel="alternate" href="https://estherostos.github.io/proyectofhw/pages/ofimatica.html"/> 
+
+  </entry>
+
+  <entry>
+    <id>https://badpadi.github.io/PaginaWEB/pages/antivirus.html</id>
+    <title>Información sobre Antivirus</title>
+    <update>2021-02-12T18:30:00</update>
+<author>
+    <name>Alejandro Padillo Parra</name>
+    <email>alexpadi13@gmail.com</email>
+</author>
+    <summary> En este artículo cutre encontraras casi ninguna información sobre Antivirus</summary>
+    <link rel="alternate" href="https://badpadi.github.io/PaginaWEB/pages/antivirus.html"/> 
+
+  </entry>
+
+  <entry>
+    <id>https://badpadi.github.io/PaginaWEB/pages/recuperacion.html</id>
+    <title>Información sobre R.Datos</title>
+    <update>2021-02-12T18:30:00+01:00</update>
+<author>
+    <name>Alejadnro Padillo Parra</name>
+    <email>alexpadi13@gmail.com</email>
+</author>
+    <summary> En este artículo cutre encontraras casi ninguna información sobre Recuperación de datos</summary>
+    <link rel="alternate" href="https://estherostos.github.io/proyectofhw/pages/recuperacion.html"/> 
+
+  </entry>
+
+  <entry>
+    <id>https://estherostos.github.io/proyectofhw/pages/portable.html</id>
+    <title>Información sobre Soft. Portable</title>
+    <update>2021-02-12T18:30:00+01:00</update>
+<author>
+    <name>Alejadnro Padillo Parra</name>
+    <email>alexpadi13@gmail.com</email>
+</author>
+    <summary> En este artículo cutre encontraras casi ninguna información sobre Soft. Portable</summary>
+    <link rel="alternate" href="https://estherostos.github.io/proyectofhw/pages/portable.html"/> 
+
+  </entry>
+</feed>
