@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<link rel="stylesheet" href= "styles/estilo.css">
+<title>Plantilla CSS</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $("article").hide()
+  $("#menulondres").click(function(){
+    $("article").hide()
+    $("#londres").show();
+  });
+  $("#menuparis").click(function(){
+    $("article").hide()
+    $("#paris").show();
+  });
+  $("#menutokio").click(function(){
+    $("article").hide()
+    $("#tokio").show();
+  });
+});
+</script>
+</head>
+<body>
+
+<h2>Ejemplo de actividad final</h2>
+<p> En este ejemplo, hemos creado una cabecera, dos columnas o cajas y un pie de página.</p>
+<p>Debes probar ha hacer cambios y observar los resultados antes de intentar crear tu propia página</p>
+
+<header>
+  <h2>Ciudades</h2>
+</header>
+
+<section>
+  <nav>
+    <ul>
+      <li id="menulondres"><a href="#londres">Londres</a></li>
+      <li id="menuparis"><a href="#paris">París</a></li>
+      <li id="menutokio"><a href="#tokio">Tokyo</a></li>
+    </ul>
+  </nav>
+  <article id="londres">
+    <iframe  style="width:100%; border:none"src="pages/londres.html"></iframe>
+  </article>
+  <article id="paris">
+    <iframe   style="width:100%; border:none"src="pages/paris.html"></iframe>
+  </article>
+  <article id="tokio">
+    <iframe style="width:100%; border:none"src="pages/tokio.html"></iframe>
+  </article>
+</section>
+
+<footer>
+  <p>TIC II Bachillerato</p>
+</footer>
+
+</body>
+</html>
